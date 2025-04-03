@@ -12,6 +12,7 @@ document.addEventListener('DOMContentLoaded', function() {
     // Close popup when clicking outside the popup content
     window.addEventListener('click', function(event) {
         if (event.target === document.getElementById('productPopup')) {
+            
             document.getElementById('productPopup').style.display = 'none';
         }
     });
