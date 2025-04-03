@@ -1,0 +1,71 @@
+body{
+    width: 850px;
+    background-color: #fff;
+    margin: auto;
+    padding: 1%;
+}
+.headingh1{
+    text-align: center;
+ text-align: left !important;
+ background-color: rgba(79, 164, 238, 0.093);
+ padding: 10px;
+}
+
+.checked {
+    color: orange;
+  }
+.star{
+    display: flex;
+}
+.image_img{
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    width: 800px;
+}
+.para1{
+    padding: 20px;
+    background-color: rgba(89, 155, 226, 0.588);
+    border-radius: 20px;
+    padding: 10px;
+}
+.header3{
+    font-size: 30px;
+}
+p{
+    font-size: 20px;
+}
+.listing{
+    border-radius: 2px;
+    list-style: none;
+    padding: 10px;
+    background-color: rgba(115, 117, 118, 0.092);
+}
+.listing1{
+    margin-top: 7px;
+    list-style: none;
+}
+.pink{
+    margin-top: 15px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    padding: 15px;
+    color: rgb(175, 48, 129);
+    background-color: #e18eba2f;
+}
+.button{
+    margin-top: 40px;
+    margin-bottom: 40px;
+    text-align: center;
+}
+.button a{
+    padding: 20px;
+    /* font-size: 30px; */
+    background-color: rgb(48, 203, 102);
+    width: 98%;
+    color: white;
+    font-weight: 700;
+}
+form{
+    display: contents;
+}

@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Information Form</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Welcome to Our Website</h1>
+            <p>Please fill out the form below to get started</p>
+        </header>
+        
+        <main>
+            <section class="form-section">
+                <h2>Contact Information</h2>
+                <form action="thankyou.html" method="get" id="contactForm">
+                    <div class="form-group">
+                        <label for="name">Full Name:</label>
+                        <input type="text" id="name" name="name" required>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="address">Address:</label>
+                        <textarea id="address" name="address" rows="3" required></textarea>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="phone">Phone Number:</label>
+                        <input type="tel" id="phone" name="phone" required>
+                    </div>
+                    
+                    <button type="submit" class="submit-btn">Submit</button>
+                </form>
+            </section>
+        </main>
+        
+        <footer>
+            <p>&copy; 2023 Your Company. All rights reserved.</p>
+        </footer>
+    </div>
+    
+    <!-- Popup Modal -->
+    <div id="productPopup" class="popup">
+        <div class="popup-content">
+            <span class="close-btn">&times;</span>
+            <h2>Special Offer!</h2>
+            <div class="product-details">
+                <img src="https://via.placeholder.com/300x200" alt="Product Image" class="product-image">
+                <h3>Premium Product</h3>
+                <p>Our premium product offers amazing features that will enhance your experience.</p>
+                <p>Key benefits:</p>
+                <ul>
+                    <li>High quality materials</li>
+                    <li>Long-lasting performance</li>
+                    <li>24/7 customer support</li>
+                </ul>
+                <a href="#contactForm" class="cta-button" id="connectWithForm">Get in Touch</a>
+            </div>
+        </div>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
